@@ -6,7 +6,9 @@ Internacionalização de aplicação Asp.Net MVC nos idiomas pt-BR e en-US
 1 - Primeiramente vá até a Solution Explorer - > abara o arquivo Web.config ->
 dentro da Tag <system.web> adicione a tag Filho <globalization culture="pt-BR" uiCulture="auto:pt-BR" />,
 essa tag de globalização fará a detecção automatica de idioma.
-https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/InternacionalizacaoWebConfig.png
+<p align="center">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/InternacionalizacaoWebConfig.png" width="1000" height="300" title="hover text">
+</p>
 
 2 - Os Web Resources, ou "Global resources", são recursos adicionados
 à sua "web application", cada um com um valor diferente para suas chaves e que, ao 
@@ -15,16 +17,22 @@ que foi cadastrado para ele. Os Web Resources são arquivos XML.
 
 3 - Então vamos lá inserir o diretório "App_GlobalResources",
 para isso clique com o botão direito do mouse em seu projeto > Add > Add ASP.NET Folder.
-https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/AppGlobalResources.png
+<p align="center">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/AppGlobalResources.png" width="1000" height="300" title="hover text">
+</p>
 
 4 - Após criar o diretório "App_GlobalResources", clique bom o botão direito nele > Add > 
 Resource Files 
-https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/AddResourceFiles.png
+<p align="center">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/AddResourceFiles.png" width="1000" height="300" title="hover text">
+</p>
 usaremos um para cada língua escolhida, tendo cada uma um sufixo com o código
 da língua. Por exemplo: teremos uma página com informações sobre o ASP.NET em português, inglês,
 então teremos 2 arquivos do tipo "Resources File" com os seguintes nomes (aspnet.resx) para o Português
 que será Default e para o Inglês será (aspnet.en.resx).
-https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/ResourceFiles-Idiomas.png
+<p align="center">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/ResourceFiles-Idiomas.png" width="1000" height="300" title="hover text">
+</p>
 
 5 - caso queira acrescentar outros idiomas é só ir criando novos arquivo do tipo (Resources File) e renomeando ele com
 "aspnet.CÓDIGO DA LINGUAGEM DESEJADA.resx".
@@ -35,10 +43,14 @@ https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/ResourceFiles-Idiomas.png
 Agora abara o arquivo (aspnet.en.resx) para o inglês crie na coluna "Name" > "labelTitulo", e na coluna "Value" > Hellooooo! .
 
 pt-BR
-https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Resource-em-pt-BR.png
+<p align="center">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Resource-em-pt-BR.png" width="1000" height="300" title="hover text">
+</p>
 
 en-US
-https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/resource-em-en-US.png
+<p align="center">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/resource-em-en-US.png" width="1000" height="300" title="hover text">
+</p>
 
 Vá na view Index da sua aplicação e insira uma uma tag chamando a labelTitulo que você criou nas suas Resources Ex:
 <h1>@Resources.aspnet.labelTitulo</h1>
@@ -48,9 +60,17 @@ caso seu navegador esteja configurado no idioma pt-BR a mensagem de labelTitulo 
 a labelTitulo será exibida com o Value "Hellooooo!" e, inglês;
 
 navegador en-US
-https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Navegador-en-Us.png
+<p align="center">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Navegador-en-Us.png" width="1000" height="300" title="hover text">
+</p>
 
 navegador pt-BR
-https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/navegador-pt-BR.png
+<p align="center">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/navegador-pt-BR.png" width="1000" height="300" title="hover text">
+</p>
 
 Fim...
+
+@REFERENCIAS DE ESTUDO:
+
+https://imasters.com.br/dotnet/internacionalizacao-de-sites-asp-net
