@@ -44,12 +44,12 @@ Agora abara o arquivo (aspnet.en.resx) para o inglês crie na coluna "Name" > "l
 
 pt-BR
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Resource-em-pt-BR.png" width="1000" height="500" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Resource-em-pt-BR.png" width="1000" height="300" title="hover text">
 </p>
 
 en-US
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/resource-em-en-US.png" width="1000" height="500" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/resource-em-en-US.png" width="1000" height="300" title="hover text">
 </p>
 
 Vá na view Index da sua aplicação e insira uma uma tag chamando a labelTitulo que você criou nas suas Resources Ex:
@@ -61,12 +61,12 @@ a labelTitulo será exibida com o Value "Hellooooo!" e, inglês;
 
 navegador en-US
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Navegador-en-Us.png" width="1000" height="400" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Navegador-en-Us.png" width="1000" height="300" title="hover text">
 </p>
 
 navegador pt-BR
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/navegador-pt-BR.png" width="1000" height="400" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/navegador-pt-BR.png" width="1000" height="300" title="hover text">
 </p>
 
 Fim...
