@@ -7,31 +7,31 @@ Internacionalização de aplicação Asp.Net MVC nos idiomas pt-BR e en-US
 dentro da Tag <system.web> adicione a tag Filho <globalization culture="pt-BR" uiCulture="auto:pt-BR" />,
 essa tag de globalização fará a detecção automatica de idioma.
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/InternacionalizacaoWebConfig.png" width="1000" height="300" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/InternacionalizacaoWebConfig.png" width="1000" height="500" title="hover text">
 </p>
 
 2 - Os Web Resources, ou "Global resources", são recursos adicionados
-à sua "web application", cada um com um valor diferente para suas chaves e que, ao 
+à sua "Aplicação Web", cada um com um valor diferente para suas chaves e que, ao 
 solicitarem determinado conteúdo de determinada "língua", eles entregam o conteúdo 
 que foi cadastrado para ele. Os Web Resources são arquivos XML.
 
-3 - Então vamos lá inserir o diretório "App_GlobalResources",
+3 - Então vamos lá inserir o diretório "App_GlobalResources" em nossa Aplicação Web,
 para isso clique com o botão direito do mouse em seu projeto > Add > Add ASP.NET Folder.
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/AppGlobalResources.png" width="1000" height="300" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/AppGlobalResources.png" width="1000" height="500" title="hover text">
 </p>
 
 4 - Após criar o diretório "App_GlobalResources", clique bom o botão direito nele > Add > 
-Resource Files 
+"Resource Files "
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/AddResourceFiles.png" width="1000" height="300" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/AddResourceFiles.png" width="1000" height="500" title="hover text">
 </p>
 usaremos um para cada língua escolhida, tendo cada uma um sufixo com o código
 da língua. Por exemplo: teremos uma página com informações sobre o ASP.NET em português, inglês,
 então teremos 2 arquivos do tipo "Resources File" com os seguintes nomes (aspnet.resx) para o Português
 que será Default e para o Inglês será (aspnet.en.resx).
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/ResourceFiles-Idiomas.png" width="1000" height="300" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/ResourceFiles-Idiomas.png" width="1000" height="500" title="hover text">
 </p>
 
 5 - caso queira acrescentar outros idiomas é só ir criando novos arquivo do tipo (Resources File) e renomeando ele com
@@ -44,12 +44,12 @@ Agora abara o arquivo (aspnet.en.resx) para o inglês crie na coluna "Name" > "l
 
 pt-BR
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Resource-em-pt-BR.png" width="1000" height="300" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Resource-em-pt-BR.png" width="1000" height="500" title="hover text">
 </p>
 
 en-US
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/resource-em-en-US.png" width="1000" height="300" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/resource-em-en-US.png" width="1000" height="500" title="hover text">
 </p>
 
 Vá na view Index da sua aplicação e insira uma uma tag chamando a labelTitulo que você criou nas suas Resources Ex:
@@ -61,12 +61,12 @@ a labelTitulo será exibida com o Value "Hellooooo!" e, inglês;
 
 navegador en-US
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Navegador-en-Us.png" width="1000" height="300" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/Navegador-en-Us.png" width="1000" height="400" title="hover text">
 </p>
 
 navegador pt-BR
 <p align="center">
-  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/navegador-pt-BR.png" width="1000" height="300" title="hover text">
+  <img src="https://bela-estudo-s3.s3.sa-east-1.amazonaws.com/navegador-pt-BR.png" width="1000" height="400" title="hover text">
 </p>
 
 Fim...
